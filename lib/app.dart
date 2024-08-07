@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:material_3/selection/date_time_picker_widget.dart';
+import 'package:material_3/text_feilds/text_feild_widget.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,11 +10,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
+        brightness: Brightness.light,
       ),
       darkTheme: ThemeData(
         useMaterial3: true,
+        brightness: Brightness.dark,
       ),
-      home: const DateTimePickerWidget(), // change the widgets here to try all
+      home: const TextFeildWidget(), // change the widgets here to try all
     );
   }
 }
